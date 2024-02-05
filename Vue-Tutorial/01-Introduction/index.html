@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>VueJs Introduction</title>
+  </head>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <body>
+    <div id="intro">
+      <h1>{{ message }}</h1>
+      <h1>{{ message2 }}</h1>
+    </div>
+    <script type="text/javascript">
+      // Create an instance of Vue
+      let vue_det = new Vue({
+        el: "#intro",
+        data: {
+          message: "My first VueJS Task",
+          message2: "This works too!"
+        },
+      });
+    </script>
+  </body>
+</html>
